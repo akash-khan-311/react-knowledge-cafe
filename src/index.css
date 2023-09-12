@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap");
+body {
+  font-family: "Exo 2", sans-serif;
+  background-image: radial-gradient(
+      circle at center center,
+      transparent 0%,
+      rgb(33, 33, 33) 99%
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(163, 163, 163, 0.2) 0px,
+      rgba(163, 163, 163, 0.2) 1px,
+      transparent 1px,
+      transparent 6px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(163, 163, 163, 0.2) 0px,
+      rgba(163, 163, 163, 0.2) 1px,
+      transparent 1px,
+      transparent 6px
+    ),
+    linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
+}
